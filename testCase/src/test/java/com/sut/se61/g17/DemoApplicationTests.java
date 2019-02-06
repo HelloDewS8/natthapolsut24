@@ -63,6 +63,7 @@ public class DemoApplicationTests {
 			Set<ConstraintViolation<?>> violations = e.getConstraintViolations();
 			assertEquals(violations.isEmpty(), false);
 			assertEquals(violations.size(), 1);
+			System.out.println(e);
 		}
 	}
 	@Test
@@ -82,6 +83,7 @@ public class DemoApplicationTests {
 			Set<ConstraintViolation<?>> violations = e.getConstraintViolations();
 			assertEquals(violations.isEmpty(), false);
 			assertEquals(violations.size(), 1);
+			System.out.println(e);
 		}
 	}
 
@@ -120,6 +122,7 @@ public class DemoApplicationTests {
 			Set<ConstraintViolation<?>> violations = e.getConstraintViolations();
 			assertEquals(violations.isEmpty(), false);
 			assertEquals(violations.size(), 1);
+			System.out.println(e);
 		}
 	}
 
@@ -139,6 +142,7 @@ public class DemoApplicationTests {
 			Set<ConstraintViolation<?>> violations = e.getConstraintViolations();
 			assertEquals(violations.isEmpty(), false);
 			assertEquals(violations.size(), 1);
+			System.out.println(e);
 		}
 	}
 
